@@ -1,0 +1,36 @@
+---VALID COMMANDS---
+"get_jobstate":
+"get_joblist":
+"get_jobinfo":
+"get_job":
+"get_server":
+"get_srvlist":
+"get_srvgroups":
+"get_clientlist":
+"get_mgrinfo":
+"get_jobsrverrorlst":
+"new_controller":
+"reset_jobs":   
+"suspend_job":
+"activate_job":   
+
+---TCP LISTENER CASES---
+"handshake":
+"get_jobstate":
+"get_joblist":  
+"get_jobinfo":
+"get_job":
+"get_server":
+"get_srvlist":
+"get_srvgroups":
+"get_clientlist":
+"get_mgrinfo":
+"get_jobsrverrorlst":
+"new_controller":
+"reset_jobs":
+
+-------JOB STATES-------
+'Complete', 'Not started', 'Active', 'Suspended', 'Waiting'
+
+-------Broadcast Msg TYPES---------
+'mgr_off', 'last_frame_update', 'job_render_end', 'job_render_start', 'job_state_change', 'job_deleted', 'new_job_appear', 'job_restarted', 'render_error', 'job_queuing_up', 'frame_update', 'server_off', 'server_on', 'server_free', 'render_aborted', 'server_deleted', 'control_grant'

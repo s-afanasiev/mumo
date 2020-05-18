@@ -1,0 +1,24 @@
+--------Job Aborted cause User Cancelled------------
+get jobsrverrorlst 1924032850
+251 275
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<ServerErrorList>
+    <ServerMessage>
+        <Handle>E839DFB5FEEB0000</Handle>
+        <Msg>3dsmax adapter error : Autodesk  20.4 reported error: Canceled by User &#x0A;</Msg>
+    </ServerMessage>
+</ServerErrorList>
+
+--------Job Aborted cause Wrong Path------------
+get jobsrverrorlst 1379827611
+251 411
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<ServerErrorList>
+    <ServerMessage>
+        <Handle>E839DFB5FEEB0000</Handle>
+        <Msg>3dsmax adapter error : Autodesk  20.4 reported error: Output path &quot;C:\Users\old\Documents\3dsMax\renderoutput&quot; for &quot;C:\Users\old\Documents\3dsMax\renderoutput\zz.jpg&quot; could not be found. &#x0A;</Msg>
+    </ServerMessage>
+</ServerErrorList>
+------------------------------------------------
